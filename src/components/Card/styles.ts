@@ -1,58 +1,20 @@
 import styled from "styled-components"
-import { colors } from "../../styles/GlobalStyle"
 
 export const Aside = styled.aside`
     display: grid;
     grid-template-columns: auto auto;
-    gap: 1rem;
-    margin-left: 17rem;
+    align-items: center;
     h3{
-        color: white;
         font-family: Arial;
     }
     div{
-        background-color: ${colors.secondary};
+        background-color: #F9EBC4;
         border-radius: 1rem;
-        padding: 1;
+        padding: 1rem;
         line-height: 2rem;
-        width: 50%; 
-        margin-top: 5rem;
-    }
-    div img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
+        margin: 1rem;
     }
     div h3 {
         text-align: center;
-    }
-    @media(max-width: 1500px){
-        div img{
-            width: 85%;
-            height: 85%;
-        }
-        div{
-            margin-top: 2rem;
-        }
-        margin-left: 10rem;
-    }
-    @media(max-width: 1000px){
-        grid-template-columns: auto;
-        div img{
-            width: 85%;
-            height: 85%;
-        }
-    }
-    @media(max-width: 780px){
-        grid-template-columns: auto;
-        div img{
-            width: 85%;
-            height: 85%;
-        }
-        font-size: small;
-        div{
-            padding: 0.5rem;
-        }
-    }    
+    }  
 `

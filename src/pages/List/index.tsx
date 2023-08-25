@@ -1,10 +1,10 @@
 import * as S from './styles'
-import { Square } from '../../components/Card'
+import { Intro } from '../../components/Text'
 
 export function List() {
   return (
     <S.Section>
-      <Square /> {}
+      <Intro /> {}
     </S.Section>
   )
 }
